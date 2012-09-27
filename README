@@ -1,0 +1,11 @@
+This is a MySQL performance_schema monitor to be used by diamond
+(http://opensource.brightcove.com/project/diamond/) to collect data for
+graphite (http://graphite.readthedocs.org).
+
+At the moment it only collects replication load information, giving you insight
+in how loaded your single-threaded mysql replication is.
+
+etsy-snippet.php is a snippet for an etsy-based dashboard that combines the
+metrics to a single graph, an example of which is included as well.
+
+(c) 2012, Dennis Kaarsemaker <dennis@kaarsemaker.net>
